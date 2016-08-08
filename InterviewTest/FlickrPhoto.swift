@@ -15,10 +15,17 @@ class FlickrPhoto: NSObject {
     let title: String
     
     
-    init(photoData: NSDictionary) {
+    init(photoData: [NSObject : AnyObject]) {
        let flickr = FlickrKit.sharedFlickrKit()
-       thubmnailURL = flickr.photoURLForSize(FKPhotoSizeSmall240, fromPhotoDictionary: photoData as [NSObject : AnyObject])
-       detailURL = flickr.photoURLForSize(FKPhotoSizeLarge1024, fromPhotoDictionary: photoData as [NSObject : AnyObject])
+       thubmnailURL = flickr.photoURLForSize(FKPhotoSizeSmall240, fromPhotoDictionary: photoData)
+       detailURL = flickr.photoURLForSize(FKPhotoSizeLarge1024, fromPhotoDictionary: photoData)
        title = photoData["title"] as! String
     }
+    
+//    init(thumbnailURL: NSURL, detailURL: NSURL, title: String) {
+//        self.thubmnailURL = thumbnailURL
+//        self.detailURL = detailURL
+//        self.title = title
+//    }
+
 }

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		878934A71CD10C6D00D42CFF /* UnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878934A61CD10C6D00D42CFF /* UnitTests.m */; };
 		87E382FA1C6C9FCC001BC503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E382F91C6C9FCC001BC503 /* main.m */; };
 		87E382FD1C6C9FCC001BC503 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E382FC1C6C9FCC001BC503 /* AppDelegate.m */; };
 		87E383001C6C9FCC001BC503 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E382FF1C6C9FCC001BC503 /* ViewController.m */; };
@@ -16,23 +15,22 @@
 		87E383081C6C9FCC001BC503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E383061C6C9FCC001BC503 /* LaunchScreen.storyboard */; };
 		87E383121C6CA37B001BC503 /* FlickrCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E383101C6CA37B001BC503 /* FlickrCell.m */; };
 		87E383131C6CA37B001BC503 /* FlickrCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E383111C6CA37B001BC503 /* FlickrCell.xib */; };
-		8BF77BF6DDACBBB0E30DBD79 /* libPods-UnitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EF65828D79703AA957AE32 /* libPods-UnitTests.a */; };
+		9B723B9847E5252F67EA3CDB /* libPods-InterviewTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3393F3C5CDF765FFF9EA1AD5 /* libPods-InterviewTest.a */; };
 		A044868A1D5880A00058D494 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04486891D5880A00058D494 /* FlickrPhoto.swift */; };
 		A044868E1D58A39D0058D494 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044868D1D58A39D0058D494 /* DetailViewController.swift */; };
 		A04486901D58A48A0058D494 /* FlickrPhotosCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044868F1D58A48A0058D494 /* FlickrPhotosCoordinator.swift */; };
 		A04486921D58A49A0058D494 /* FlickrPhotosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04486911D58A49A0058D494 /* FlickrPhotosPresenter.swift */; };
-		A04486931D58C3F70058D494 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E382FF1C6C9FCC001BC503 /* ViewController.m */; };
-		A04486941D58C3FB0058D494 /* FlickrPhotosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04486911D58A49A0058D494 /* FlickrPhotosPresenter.swift */; };
-		A04486951D58C3FE0058D494 /* FlickrPhotosCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044868F1D58A48A0058D494 /* FlickrPhotosCoordinator.swift */; };
-		A04486961D58C4020058D494 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04486891D5880A00058D494 /* FlickrPhoto.swift */; };
-		A04486971D58C4080058D494 /* FlickrCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E383101C6CA37B001BC503 /* FlickrCell.m */; };
-		A04486981D58C40B0058D494 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044868D1D58A39D0058D494 /* DetailViewController.swift */; };
-		A044869A1D58C50D0058D494 /* flickr.json in Resources */ = {isa = PBXBuildFile; fileRef = A04486991D58C50D0058D494 /* flickr.json */; };
+		A04486AD1D58DF790058D494 /* InterviewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04486AC1D58DF790058D494 /* InterviewTestTests.swift */; };
+		A04486B61D58E7320058D494 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04486891D5880A00058D494 /* FlickrPhoto.swift */; };
+		A04486B81D58F78E0058D494 /* flickr.json in Resources */ = {isa = PBXBuildFile; fileRef = A04486B71D58F78E0058D494 /* flickr.json */; };
+		A04486B91D58F8430058D494 /* FlickrPhotosCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044868F1D58A48A0058D494 /* FlickrPhotosCoordinator.swift */; };
+		A04486BA1D58F8460058D494 /* FlickrPhotosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04486911D58A49A0058D494 /* FlickrPhotosPresenter.swift */; };
 		A8A25769CF14D5E4E41694DC /* libPods-InterviewTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3393F3C5CDF765FFF9EA1AD5 /* libPods-InterviewTest.a */; };
+		C5FB0227D39104D64E5CE3F1 /* libPods-InterviewTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5D785EDB7553083E7BDAB5 /* libPods-InterviewTestTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		878934A91CD10C6D00D42CFF /* PBXContainerItemProxy */ = {
+		A04486AF1D58DF7A0058D494 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 87E382ED1C6C9FCC001BC503 /* Project object */;
 			proxyType = 1;
@@ -49,9 +47,6 @@
 		72EF65828D79703AA957AE32 /* libPods-UnitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		739D156EE101BF05F351C0D1 /* Pods-UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8789349E1CD0B22000D42CFF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		878934A41CD10C6D00D42CFF /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		878934A61CD10C6D00D42CFF /* UnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTests.m; sourceTree = "<group>"; };
-		878934A81CD10C6D00D42CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87E382F51C6C9FCC001BC503 /* InterviewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E382F91C6C9FCC001BC503 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		87E382FB1C6C9FCC001BC503 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,28 +60,35 @@
 		87E3830F1C6CA37B001BC503 /* FlickrCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrCell.h; sourceTree = "<group>"; };
 		87E383101C6CA37B001BC503 /* FlickrCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrCell.m; sourceTree = "<group>"; };
 		87E383111C6CA37B001BC503 /* FlickrCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlickrCell.xib; sourceTree = "<group>"; };
+		8F5D785EDB7553083E7BDAB5 /* libPods-InterviewTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InterviewTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04486881D58809F0058D494 /* InterviewTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InterviewTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		A04486891D5880A00058D494 /* FlickrPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhoto.swift; sourceTree = "<group>"; };
 		A044868D1D58A39D0058D494 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A044868F1D58A48A0058D494 /* FlickrPhotosCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotosCoordinator.swift; sourceTree = "<group>"; };
 		A04486911D58A49A0058D494 /* FlickrPhotosPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotosPresenter.swift; sourceTree = "<group>"; };
-		A04486991D58C50D0058D494 /* flickr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flickr.json; sourceTree = "<group>"; };
+		A04486AA1D58DF790058D494 /* InterviewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04486AC1D58DF790058D494 /* InterviewTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewTestTests.swift; sourceTree = "<group>"; };
+		A04486AE1D58DF7A0058D494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A04486B71D58F78E0058D494 /* flickr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flickr.json; sourceTree = "<group>"; };
+		D440AC6C5267B99AA54ECCBA /* Pods-InterviewTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InterviewTestTests/Pods-InterviewTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		E3D1F8F94181E74525224B06 /* Pods-InterviewTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterviewTestTests/Pods-InterviewTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		878934A11CD10C6D00D42CFF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8BF77BF6DDACBBB0E30DBD79 /* libPods-UnitTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		87E382F21C6C9FCC001BC503 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A8A25769CF14D5E4E41694DC /* libPods-InterviewTest.a in Frameworks */,
+				9B723B9847E5252F67EA3CDB /* libPods-InterviewTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04486A71D58DF790058D494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FB0227D39104D64E5CE3F1 /* libPods-InterviewTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,18 +100,9 @@
 			children = (
 				3393F3C5CDF765FFF9EA1AD5 /* libPods-InterviewTest.a */,
 				72EF65828D79703AA957AE32 /* libPods-UnitTests.a */,
+				8F5D785EDB7553083E7BDAB5 /* libPods-InterviewTestTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		878934A51CD10C6D00D42CFF /* UnitTests */ = {
-			isa = PBXGroup;
-			children = (
-				A04486991D58C50D0058D494 /* flickr.json */,
-				878934A61CD10C6D00D42CFF /* UnitTests.m */,
-				878934A81CD10C6D00D42CFF /* Info.plist */,
-			);
-			path = UnitTests;
 			sourceTree = "<group>";
 		};
 		87E382EC1C6C9FCC001BC503 = {
@@ -117,7 +110,7 @@
 			children = (
 				8789349E1CD0B22000D42CFF /* README.md */,
 				87E382F71C6C9FCC001BC503 /* InterviewTest */,
-				878934A51CD10C6D00D42CFF /* UnitTests */,
+				A04486AB1D58DF790058D494 /* InterviewTestTests */,
 				87E382F61C6C9FCC001BC503 /* Products */,
 				AA9C1741DF1E91933A9276F4 /* Pods */,
 				0FC3F914F5C3411A1797985E /* Frameworks */,
@@ -128,7 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				87E382F51C6C9FCC001BC503 /* InterviewTest.app */,
-				878934A41CD10C6D00D42CFF /* UnitTests.xctest */,
+				A04486AA1D58DF790058D494 /* InterviewTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,6 +158,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A04486AB1D58DF790058D494 /* InterviewTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A04486B71D58F78E0058D494 /* flickr.json */,
+				A04486AC1D58DF790058D494 /* InterviewTestTests.swift */,
+				A04486AE1D58DF7A0058D494 /* Info.plist */,
+			);
+			path = InterviewTestTests;
+			sourceTree = "<group>";
+		};
 		AA9C1741DF1E91933A9276F4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +175,8 @@
 				3442997EA44AAB969D29C019 /* Pods-InterviewTest.release.xcconfig */,
 				739D156EE101BF05F351C0D1 /* Pods-UnitTests.debug.xcconfig */,
 				1D85A68D356F3226973869ED /* Pods-UnitTests.release.xcconfig */,
+				E3D1F8F94181E74525224B06 /* Pods-InterviewTestTests.debug.xcconfig */,
+				D440AC6C5267B99AA54ECCBA /* Pods-InterviewTestTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -179,27 +184,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		878934A31CD10C6D00D42CFF /* UnitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 878934AD1CD10C6D00D42CFF /* Build configuration list for PBXNativeTarget "UnitTests" */;
-			buildPhases = (
-				BAAE53A48E99FE87498C2FA2 /* [CP] Check Pods Manifest.lock */,
-				878934A01CD10C6D00D42CFF /* Sources */,
-				878934A11CD10C6D00D42CFF /* Frameworks */,
-				878934A21CD10C6D00D42CFF /* Resources */,
-				39662AEDF69DED4A721251DE /* [CP] Embed Pods Frameworks */,
-				B76E499FCED5DC053CFB4356 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				878934AA1CD10C6D00D42CFF /* PBXTargetDependency */,
-			);
-			name = UnitTests;
-			productName = UnitTests;
-			productReference = 878934A41CD10C6D00D42CFF /* UnitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		87E382F41C6C9FCC001BC503 /* InterviewTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87E3830C1C6C9FCC001BC503 /* Build configuration list for PBXNativeTarget "InterviewTest" */;
@@ -220,6 +204,27 @@
 			productReference = 87E382F51C6C9FCC001BC503 /* InterviewTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A04486A91D58DF790058D494 /* InterviewTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04486B11D58DF7A0058D494 /* Build configuration list for PBXNativeTarget "InterviewTestTests" */;
+			buildPhases = (
+				7F996732B91F5B88B3B6534A /* [CP] Check Pods Manifest.lock */,
+				A04486A61D58DF790058D494 /* Sources */,
+				A04486A71D58DF790058D494 /* Frameworks */,
+				A04486A81D58DF790058D494 /* Resources */,
+				C4D025AFE1B7CB5665D488C9 /* [CP] Embed Pods Frameworks */,
+				2938791D2EC956FE49B8B263 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A04486B01D58DF7A0058D494 /* PBXTargetDependency */,
+			);
+			name = InterviewTestTests;
+			productName = InterviewTestTests;
+			productReference = A04486AA1D58DF790058D494 /* InterviewTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -230,12 +235,12 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Shore GmbH";
 				TargetAttributes = {
-					878934A31CD10C6D00D42CFF = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 87E382F41C6C9FCC001BC503;
-					};
 					87E382F41C6C9FCC001BC503 = {
 						CreatedOnToolsVersion = 7.2.1;
+					};
+					A04486A91D58DF790058D494 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 87E382F41C6C9FCC001BC503;
 					};
 				};
 			};
@@ -253,20 +258,12 @@
 			projectRoot = "";
 			targets = (
 				87E382F41C6C9FCC001BC503 /* InterviewTest */,
-				878934A31CD10C6D00D42CFF /* UnitTests */,
+				A04486A91D58DF790058D494 /* InterviewTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		878934A21CD10C6D00D42CFF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A044869A1D58C50D0058D494 /* flickr.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		87E382F31C6C9FCC001BC503 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -275,6 +272,14 @@
 				87E383051C6C9FCC001BC503 /* Assets.xcassets in Resources */,
 				87E383131C6CA37B001BC503 /* FlickrCell.xib in Resources */,
 				87E383031C6C9FCC001BC503 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04486A81D58DF790058D494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04486B81D58F78E0058D494 /* flickr.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,19 +316,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		39662AEDF69DED4A721251DE /* [CP] Embed Pods Frameworks */ = {
+		2938791D2EC956FE49B8B263 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InterviewTestTests/Pods-InterviewTestTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4CA505C23F79D8B461FBEA30 /* [CP] Embed Pods Frameworks */ = {
@@ -341,22 +346,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InterviewTest/Pods-InterviewTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B76E499FCED5DC053CFB4356 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BAAE53A48E99FE87498C2FA2 /* [CP] Check Pods Manifest.lock */ = {
+		7F996732B91F5B88B3B6534A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,23 +361,24 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		C4D025AFE1B7CB5665D488C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InterviewTestTests/Pods-InterviewTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		878934A01CD10C6D00D42CFF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A04486951D58C3FE0058D494 /* FlickrPhotosCoordinator.swift in Sources */,
-				A04486931D58C3F70058D494 /* ViewController.m in Sources */,
-				878934A71CD10C6D00D42CFF /* UnitTests.m in Sources */,
-				A04486961D58C4020058D494 /* FlickrPhoto.swift in Sources */,
-				A04486971D58C4080058D494 /* FlickrCell.m in Sources */,
-				A04486941D58C3FB0058D494 /* FlickrPhotosPresenter.swift in Sources */,
-				A04486981D58C40B0058D494 /* DetailViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		87E382F11C6C9FCC001BC503 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -403,13 +394,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A04486A61D58DF790058D494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04486AD1D58DF790058D494 /* InterviewTestTests.swift in Sources */,
+				A04486B61D58E7320058D494 /* FlickrPhoto.swift in Sources */,
+				A04486BA1D58F8460058D494 /* FlickrPhotosPresenter.swift in Sources */,
+				A04486B91D58F8430058D494 /* FlickrPhotosCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		878934AA1CD10C6D00D42CFF /* PBXTargetDependency */ = {
+		A04486B01D58DF7A0058D494 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 87E382F41C6C9FCC001BC503 /* InterviewTest */;
-			targetProxy = 878934A91CD10C6D00D42CFF /* PBXContainerItemProxy */;
+			targetProxy = A04486AF1D58DF7A0058D494 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -433,36 +435,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		878934AB1CD10C6D00D42CFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 739D156EE101BF05F351C0D1 /* Pods-UnitTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				INFOPLIST_FILE = UnitTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.termine24.dienstleister.UnitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterviewTest.app/InterviewTest";
-			};
-			name = Debug;
-		};
-		878934AC1CD10C6D00D42CFF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D85A68D356F3226973869ED /* Pods-UnitTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				INFOPLIST_FILE = UnitTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.termine24.dienstleister.UnitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterviewTest.app/InterviewTest";
-			};
-			name = Release;
-		};
 		87E3830A1C6C9FCC001BC503 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -574,18 +546,44 @@
 			};
 			name = Release;
 		};
+		A04486B21D58DF7A0058D494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D1F8F94181E74525224B06 /* Pods-InterviewTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = InterviewTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.termine24.dienstleister.InterviewTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InterviewTest/InterviewTest-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "interviewTest/$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterviewTest.app/InterviewTest";
+			};
+			name = Debug;
+		};
+		A04486B31D58DF7A0058D494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D440AC6C5267B99AA54ECCBA /* Pods-InterviewTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = InterviewTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.termine24.dienstleister.InterviewTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InterviewTest/InterviewTest-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "interviewTest/$(SWIFT_MODULE_NAME)-Swift.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterviewTest.app/InterviewTest";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		878934AD1CD10C6D00D42CFF /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				878934AB1CD10C6D00D42CFF /* Debug */,
-				878934AC1CD10C6D00D42CFF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		87E382F01C6C9FCC001BC503 /* Build configuration list for PBXProject "InterviewTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -600,6 +598,15 @@
 			buildConfigurations = (
 				87E3830D1C6C9FCC001BC503 /* Debug */,
 				87E3830E1C6C9FCC001BC503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A04486B11D58DF7A0058D494 /* Build configuration list for PBXNativeTarget "InterviewTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04486B21D58DF7A0058D494 /* Debug */,
+				A04486B31D58DF7A0058D494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,8 +9,7 @@ target 'InterviewTest' do
     pod 'AFNetworking', '~> 3.0'
 end
 
-
-target 'UnitTests' do
+target 'InterviewTestTests' do
     pod 'FlickrKit', '~> 1.0'
     pod 'AFNetworking', '~> 3.0'
 end

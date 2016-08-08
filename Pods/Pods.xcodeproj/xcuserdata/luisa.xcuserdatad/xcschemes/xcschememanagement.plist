@@ -29,7 +29,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-UnitTests.xcscheme</key>
+		<key>Pods-InterviewTestTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -38,11 +38,6 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>44668C5AC55CC0458D2633DA8E6BDE8F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>562E414B4E9FF68417D8FE2280A612FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -58,6 +53,11 @@
 			<true/>
 		</dict>
 		<key>E4FFC614655DB3D435142E50E3B1272F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FB991CEE87CFA8E682139C9E7B420681</key>
 		<dict>
 			<key>primary</key>
 			<true/>

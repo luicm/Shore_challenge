@@ -24,7 +24,6 @@ struct FlickrPhotosCoordinator {
                 let topPhotos = response["photos"] as! [NSObject: AnyObject]
                 let photoArray = topPhotos["photo"] as! [[NSObject: AnyObject]]
                 for photoDictionary in photoArray {
-                
                     let newPhoto = FlickrPhoto(photoData: photoDictionary)
                     allPhotos.append(newPhoto)
                 }
