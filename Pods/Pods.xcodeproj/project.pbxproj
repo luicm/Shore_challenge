@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		00DC43BD3774B69599AB2395296E4AF4 /* FKFlickrPhotosetsEditPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5F5ABECFD09A33566DBF232DB9ED3 /* FKFlickrPhotosetsEditPhotos.m */; };
-		00F09DB5E05D1208F27161E2F016FE36 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B240D99C3FC6A7DC6C66A2434CA799 /* MobileCoreServices.framework */; };
-		022B549F10007177A43FAB1DD5114F7D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19DF616941A51576DD057A9FD8F4AD8 /* Security.framework */; };
+		0358B918CA8C9D3C214FD4D41CD69A90 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDC82E26C0F346EB4C7A4C4C5A0E864 /* Security.framework */; };
 		03701C459D4E99671C4407C84B0B523E /* FKFlickrGroupsDiscussRepliesAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D9EC3FC769DEE0EB34FF4263ABB247 /* FKFlickrGroupsDiscussRepliesAdd.m */; };
 		03C191D488B1B6B826588304E1BF73DD /* FKFlickrMachinetagsGetPredicates.h in Headers */ = {isa = PBXBuildFile; fileRef = 6191050342AC8936F45A47BF73A5FD5A /* FKFlickrMachinetagsGetPredicates.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04176D81E09A7A2BB722AA28FAD74BF7 /* FKFlickrPushGetTopics.m in Sources */ = {isa = PBXBuildFile; fileRef = EA23901BBC19CE3A5F1BE5DD7327A3B9 /* FKFlickrPushGetTopics.m */; };
+		045FFEDD819A734271DD5DE53C877884 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28310C109F80A2823B80B134627E5D8 /* CoreGraphics.framework */; };
 		04C5695A8763453767F43DAF558F61AA /* FKFlickrPhotosSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E2D8097E6E449C9502C8D738D43128 /* FKFlickrPhotosSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		050B0CC5BE4D0F67BE37AF8E22747EFB /* FKFlickrPlacesGetChildrenWithPhotosPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = D112DA7C3F19C3A36F4FF093E715A442 /* FKFlickrPlacesGetChildrenWithPhotosPublic.m */; };
 		055DC3BC2B1436A864F1D1B3F3D00327 /* FKFlickrGroupsDiscussRepliesAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 33ED1D941353261F85C256895BCA6CB2 /* FKFlickrGroupsDiscussRepliesAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,7 +21,6 @@
 		06C2092FAA04577B5BCC07765752AFED /* FKFlickrPhotosSuggestionsRemoveSuggestion.h in Headers */ = {isa = PBXBuildFile; fileRef = BCBE668194A24C471607EA690D2F2622 /* FKFlickrPhotosSuggestionsRemoveSuggestion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0706A573FA319EAFDE429090AD489194 /* FKFlickrPhotosetsAddPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = CCA3BE06F61F7365CE0F61BA574F87CB /* FKFlickrPhotosetsAddPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		072ED74B6EA959CC819B799210A8F04F /* FKFlickrGalleriesEditPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA11032E04A5D0E103C367527034086 /* FKFlickrGalleriesEditPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07586D10B9674F8E581A4063CA2142D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C31A9B26388001B26382C7C355DA572 /* Foundation.framework */; };
 		08690E3861AC1965E9CF550793A695BB /* FKDUNetworkOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B26435DE3869D7F70AF43C683837B5B4 /* FKDUNetworkOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08EDEFE120D7E61FDD84A13A89B2ECF5 /* FKFlickrPlacesGetShapeHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A913225D1A1DC4182C215A0CCC9CE3 /* FKFlickrPlacesGetShapeHistory.m */; };
 		0981F242EB377F200BAA9343726A6B5C /* FKFlickrStatsGetCollectionDomains.h in Headers */ = {isa = PBXBuildFile; fileRef = 876F55EEC3F16E18E0472057B84FA974 /* FKFlickrStatsGetCollectionDomains.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,6 +50,7 @@
 		16ADB7183B5CA985DAA2662D1A135B2D /* FKFlickrGalleriesGetPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = C3B4A0398B841A999F696F24E4B02C29 /* FKFlickrGalleriesGetPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1719F6B9B98845459643498BAB25E316 /* FKFlickrPrefsGetHidden.h in Headers */ = {isa = PBXBuildFile; fileRef = F344AFADEFC027FF96293D3B4DFB1557 /* FKFlickrPrefsGetHidden.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1730449DC3D21B0B5C03190B7864F923 /* FKFlickrPhotosGetExif.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89105CEE3F068397BA335A18DD3242 /* FKFlickrPhotosGetExif.m */; };
+		17912D9A89FC36E82029409E9B74A61A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0A15003DCEEBA4FDF7ABE901F172CE /* MobileCoreServices.framework */; };
 		17A454923D65C103B7DC26AD312B1063 /* FKFlickrPlacesPlacesForContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69FF2786F76451E106CA4F5D71F81F /* FKFlickrPlacesPlacesForContacts.m */; };
 		1802E5522AF18B1E72B63FD258BC448B /* FKFlickrPhotosGetPerms.h in Headers */ = {isa = PBXBuildFile; fileRef = D8DDFE7E1254DCCC362C54FF40D59E3B /* FKFlickrPhotosGetPerms.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18646B386D9EA6442C326A353D74D07F /* FKFlickrPlacesResolvePlaceId.m in Sources */ = {isa = PBXBuildFile; fileRef = 786EC6D112329A3B57EB889784B1B6E3 /* FKFlickrPlacesResolvePlaceId.m */; };
@@ -63,14 +63,12 @@
 		1CC231145C1CDF3794CAFDF0017BF055 /* FKFlickrStatsGetPhotostreamStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 256D409B9DF2D0DB5D747CA28A27ECC1 /* FKFlickrStatsGetPhotostreamStats.m */; };
 		1CD02B7A60C7C9980BCD290F7CBEE9B6 /* FKFlickrFavoritesGetContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F74AFA9E3DA44A4C1C88A4E1059DF4 /* FKFlickrFavoritesGetContext.m */; };
 		1D43E92F991C1D8887E95BCDA7864152 /* FKFlickrStatsGetCollectionStats.h in Headers */ = {isa = PBXBuildFile; fileRef = E4074BCD4BE9913A4ED75ADB83ECAD64 /* FKFlickrStatsGetCollectionStats.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D7724C8A2542155BC4C0C6C9BC5F262 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C168D5DBDB78691493E24B13EF6B6A8 /* SystemConfiguration.framework */; };
 		1D9D32E5A13F7C7B9FA934F70DA7B486 /* FKFlickrPhotosetsCommentsEditComment.h in Headers */ = {isa = PBXBuildFile; fileRef = 453E073A12BA95AD4EDC67A083B023EC /* FKFlickrPhotosetsCommentsEditComment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E36730DF935D035C14DF7ACD429B88E /* FKFlickrGroupsDiscussRepliesDelete.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C5DA89A8804EC2BEE62AE7CD7F0142 /* FKFlickrGroupsDiscussRepliesDelete.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EBD8E982DA5B010C591EFEA6A38F250 /* FKFlickrPhotosNotesEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A4AC4FD08DC49A403BC6FC828972B /* FKFlickrPhotosNotesEdit.m */; };
 		1EFA69C44B1CE60861FA8BA02692BE64 /* FKFlickrPhotosGetFavorites.m in Sources */ = {isa = PBXBuildFile; fileRef = 041000BD789CEA0FF355AC10C5021864 /* FKFlickrPhotosGetFavorites.m */; };
 		1FDBCC9F09B908BB3CD932CA23B2213E /* FKFlickrMachinetagsGetPairs.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5AD0BB49806B41DDE6B9A77C4FB73B /* FKFlickrMachinetagsGetPairs.m */; };
 		20001226D7958D1AD2D4B96114C6C54F /* FKFlickrAuthGetToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B06C33AA8654A7B4414246A7B6BCE50 /* FKFlickrAuthGetToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2053D71CF543C3A3CC47C5409D61923C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F2B5E013FD1D42752E768761E043FC /* CoreGraphics.framework */; };
 		20DE624ECC374A7B37F9B4285304338B /* FKDUDefaultDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FC45DF0625A66CCC4E9D4A3FAFCE77 /* FKDUDefaultDiskCache.m */; };
 		20EFF13B04334CD6156493CFFA8DA41F /* FKFlickrPhotosPeopleEditCoords.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D3DB8D42386C03742D07960FE56E /* FKFlickrPhotosPeopleEditCoords.m */; };
 		2165BB5C1841ADEE60B4090B75F407D6 /* FKFlickrPhotosetsRemovePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EAA0FD06D38B2B8758D7D656F3282E /* FKFlickrPhotosetsRemovePhoto.m */; };
@@ -93,7 +91,6 @@
 		28A2AC70D61CB9B5A8D9B2550629CA67 /* FKFlickrPrefsGetSafetyLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CCF53738A3FB68A8182B60941DB98F /* FKFlickrPrefsGetSafetyLevel.m */; };
 		28CE50E67CD34B709B5FD8505112E119 /* FKFlickrReflectionGetMethodInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A210E146C6B2A849A65F12196CAC601 /* FKFlickrReflectionGetMethodInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A0F4F39E407DC2D29AFC10FD13BFBAE /* FKFlickrGalleriesGetInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E273CF6C760DA812E98CBFC55B5D53F8 /* FKFlickrGalleriesGetInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A984C2DD0390D719384EF2D59589C9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C31A9B26388001B26382C7C355DA572 /* Foundation.framework */; };
 		2B7924E0E228E6EADDB208A133CB5001 /* FKFlickrGalleriesCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86991A56798EC479895120DD259A3C62 /* FKFlickrGalleriesCreate.m */; };
 		2BA05DB47131A7C974D9ECC51F18DFB5 /* FKFlickrPhotosSetContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 388B1F20FCE39BDA80EA74866B307833 /* FKFlickrPhotosSetContentType.m */; };
 		2C4C9BBD54979EA568D630D5F4721DF3 /* FKFlickrTagsGetClusters.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF07DB70FC1F2982FF9AE6023D70F29 /* FKFlickrTagsGetClusters.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -105,6 +102,7 @@
 		2D627ECA61D94A0E662BDA11A27CCB34 /* FKFlickrUrlsLookupUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 030B65BD4691A7FADA9F3BF3C3FE7B13 /* FKFlickrUrlsLookupUser.m */; };
 		2E8C808C42DCDD0AB36BE60441F92302 /* FKFlickrPhotosGetContactsPublicPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = CB610D9DBA6D673BBB80C71C6D7604FA /* FKFlickrPhotosGetContactsPublicPhotos.m */; };
 		2F6F622627DCA7F7A8029276A0188BFF /* FKFlickrPhotosCommentsGetRecentForContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = B15372CDE91813CCFA65C69F444334CD /* FKFlickrPhotosCommentsGetRecentForContacts.m */; };
+		30DA0B928C8F28E3C3F279C3833458A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */; };
 		311E5200832E4AE174A193851A2C6317 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 535B4FF87E65651D6E1AEDFC8B3F523F /* AFSecurityPolicy.m */; };
 		32257644A41FFF142AE08E7558277A76 /* FKFlickrPhotosSetSafetyLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EB8ACFF7C5543AFFEDFFE282D70CA7 /* FKFlickrPhotosSetSafetyLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		326A543AD4E39A2DAECA1CD385E3AEA2 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4612F1DEF64FBB1518928A74B6F17F3B /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -191,7 +189,6 @@
 		5CC088B3E0A0A091FA19A63D8803C6D6 /* FKFlickrGroupsSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD766486E77294F523C14651641E803 /* FKFlickrGroupsSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D52DB6DF2E6C24CECB0015A9177A2E1 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D6321A1CAAB2C28A5F502514E97334 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6039F1EB2C179346CF54B4703D755DEC /* FKFlickrPlacesPlacesForUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD5234CDCF0380F5A92C9003764594B /* FKFlickrPlacesPlacesForUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6083F51989A0009C740D92767F4DC1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C31A9B26388001B26382C7C355DA572 /* Foundation.framework */; };
 		61C2B6F2293B68872F93D6FC1F99188D /* FKFlickrPeopleFindByUsername.m in Sources */ = {isa = PBXBuildFile; fileRef = 080B68DA11E64E090DC5932BACD7CEEC /* FKFlickrPeopleFindByUsername.m */; };
 		61ED14817E8E0B7360D21E439CB48F7E /* FKFlickrPhotosSetDates.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B1A2BC2CA547A66529DC5F2BEE134B /* FKFlickrPhotosSetDates.m */; };
 		61F9DAAC329743B96F7183FEDCE9710B /* FKFlickrGroupsBrowse.h in Headers */ = {isa = PBXBuildFile; fileRef = B40936B15374CC61ADB1035EA953E475 /* FKFlickrGroupsBrowse.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -207,6 +204,7 @@
 		649737D6B89E66DE9F5FAE3CD399CD03 /* FKDUDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D44EE9500D4F87E0E7399D4EDE73FDD /* FKDUDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64A108ECD99CE5F132049593A9401F46 /* FKFlickrAuthCheckToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7AE81819521F8E97C6A8103599E181 /* FKFlickrAuthCheckToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64B2555D03254573CBA2DF3CF5225A99 /* FKURLBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D1AF23FDA223D8B5D0367F0BDFCB36 /* FKURLBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		650FFDAF60A6C37D824BC6364B09A3E5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343DFBED3469B92704E04E700E1DFF67 /* SystemConfiguration.framework */; };
 		656EEC3A89A0411EAE39C76D5A74DF83 /* FKFlickrGroupsPoolsGetContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 256A07CBED1FEE34B8CA7CDE83BAC9DF /* FKFlickrGroupsPoolsGetContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65F92A47CB4788D9EF2C36D6884938FC /* FKFlickrPhotosetsSetPrimaryPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 290F7662DEF03701172D939A988A1533 /* FKFlickrPhotosetsSetPrimaryPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66FD66BED55956B0A21285D1EFDC13B5 /* FKFlickrPlacesPlacesForTags.m in Sources */ = {isa = PBXBuildFile; fileRef = 428D058EC500670223B23D6EB4C99BA0 /* FKFlickrPlacesPlacesForTags.m */; };
@@ -293,9 +291,11 @@
 		91C584F7F48EE168584CDE0F405B4611 /* FKFlickrPhotosSetPerms.h in Headers */ = {isa = PBXBuildFile; fileRef = 20EB5361BC29D09CDCA237774F4BAA5F /* FKFlickrPhotosSetPerms.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9227AB4BEBEB4DDA73F2448C4D5F0EFB /* FKFlickrStatsGetPhotostreamDomains.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D271FA827CEFC6860BAC32D7D7BC761 /* FKFlickrStatsGetPhotostreamDomains.m */; };
 		9369EBE27F233EBF1E6901383A6BDE3E /* FKFlickrPhotosPeopleEditCoords.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D2C4D2C434DED4D5F6B09C48EAB23E /* FKFlickrPhotosPeopleEditCoords.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945E0100FB226AA551863C00CE9946C6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343DFBED3469B92704E04E700E1DFF67 /* SystemConfiguration.framework */; };
 		946267986C3CD27EA9187BDB08D4DFBA /* FKFlickrUrlsLookupUser.h in Headers */ = {isa = PBXBuildFile; fileRef = A76258CEC406F5AB779D0CC3676E7313 /* FKFlickrUrlsLookupUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		953143A221896DFB5B46201A3CCF1AB8 /* FKFlickrPlacesResolvePlaceId.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FB6C30C99C506289D44628DEBD6F60 /* FKFlickrPlacesResolvePlaceId.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		959DCBB56248A8D234DC477885EE0088 /* FKFlickrPhotosLicensesGetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D4751AC3440E6AA9331520ED69F4E338 /* FKFlickrPhotosLicensesGetInfo.m */; };
+		9665231F53F663B9C41AD14171EE576C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */; };
 		96A966962B13E2D62057DB715CB10083 /* FKFlickrPhotosetsGetPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = 06AD6F7ED5AD42589CFFC69C41D88195 /* FKFlickrPhotosetsGetPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97089508BACA7B9244383F4F02875CAA /* FKFlickrGroupsJoinRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CD614275B30F552790842B3BD36182C6 /* FKFlickrGroupsJoinRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9752F4F56DACAD7E221B6502CE108283 /* FKFlickrPlacesGetTopPlacesList.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDC23C15979AEA6D203DC7A11C65466 /* FKFlickrPlacesGetTopPlacesList.m */; };
@@ -306,6 +306,7 @@
 		9964AC86BF4C95505B9316EA3245A8CF /* FKFlickrPlacesFindByLatLon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0284A20304426239EE6C56ED01D70522 /* FKFlickrPlacesFindByLatLon.m */; };
 		9C17E75BF6236EADECE33E33E3398F45 /* FKFlickrContactsGetTaggingSuggestions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E00429CC7DF6B9021FF58EC764718C /* FKFlickrContactsGetTaggingSuggestions.m */; };
 		9C3F31F23A7A64010BC077AB5F969C4A /* FKFlickrTagsGetListUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A667018FE0FCB79E21596AF66289948 /* FKFlickrTagsGetListUser.m */; };
+		9CF757F63F35F2EFEC380E1C6424733D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */; };
 		9D071E0E5A24E782DDF47C865A215318 /* FKFlickrUrlsLookupGallery.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D286B3A5B5870AED85DCBC44397223 /* FKFlickrUrlsLookupGallery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D955C287603A4CFA17B9560E9D10BC4 /* FKFlickrBlogsPostPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDDB7438874271FAF2777D33F0E7EDF /* FKFlickrBlogsPostPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EEBF07FE2555B4910D48F712C5E33D0 /* FKAPIMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E6CB6A87BC5EDE8B3829F4CD1312BFF /* FKAPIMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -412,7 +413,6 @@
 		CD66078D441B58148C5B26EBD76E039C /* FKFlickrStatsGetTotalViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE1C68F6842EA51C296C87E195684A1 /* FKFlickrStatsGetTotalViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD80D075223A89173A56617F85940655 /* FKFlickrContactsGetListRecentlyUploaded.h in Headers */ = {isa = PBXBuildFile; fileRef = 030A92547E6C87E1F992E71DB4334B68 /* FKFlickrContactsGetListRecentlyUploaded.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE6AC202C7DD475332EFB6A1C641E0B8 /* FKFlickrPushSubscribe.h in Headers */ = {isa = PBXBuildFile; fileRef = 79900C3C067746738A87F7F20BB2A3D9 /* FKFlickrPushSubscribe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE8965366A3B07A6C0615055A31B8B83 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C168D5DBDB78691493E24B13EF6B6A8 /* SystemConfiguration.framework */; };
 		CEF8297101F940CAE8CF5F31B2250F2C /* FKFlickrPeopleFindByEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7249599876CD95560963DD2519C05EB5 /* FKFlickrPeopleFindByEmail.m */; };
 		CF9002AE728414945DF4994A172DA99A /* FKFlickrStatsGetPhotostreamStats.h in Headers */ = {isa = PBXBuildFile; fileRef = 636957CABB6F7942CC2547C9A32BC47D /* FKFlickrStatsGetPhotostreamStats.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF9FD78BE7F89F0395A48CB1BB755162 /* FKFlickrStatsGetPopularPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDD18144E6FC88CB4883AB51E5D0E33 /* FKFlickrStatsGetPopularPhotos.m */; };
@@ -572,6 +572,7 @@
 		1ADEE5FDCF6952B7CFBEEFDC008937D7 /* FKFlickrAuthOauthCheckToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrAuthOauthCheckToken.m; path = Classes/Model/Generated/Auth/Oauth/FKFlickrAuthOauthCheckToken.m; sourceTree = "<group>"; };
 		1AFDE7F8BBDD4E931537BE7B2BF279E2 /* FKFlickrActivityUserPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrActivityUserPhotos.m; path = Classes/Model/Generated/Activity/FKFlickrActivityUserPhotos.m; sourceTree = "<group>"; };
 		1B012BBC49EA3435E5E271DC9A0239EA /* FKFlickrTagsGetClusters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrTagsGetClusters.m; path = Classes/Model/Generated/Tags/FKFlickrTagsGetClusters.m; sourceTree = "<group>"; };
+		1B0A15003DCEEBA4FDF7ABE901F172CE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		1B89105CEE3F068397BA335A18DD3242 /* FKFlickrPhotosGetExif.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosGetExif.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetExif.m; sourceTree = "<group>"; };
 		1BDA3D8F2E39B80677968663A7B7CB92 /* FKFlickrPhotosetsRemovePhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosetsRemovePhoto.h; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsRemovePhoto.h; sourceTree = "<group>"; };
 		1BF914446AE0F85459AEC9D3A167C142 /* FKFlickrPhotosGetAllContexts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosGetAllContexts.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetAllContexts.m; sourceTree = "<group>"; };
@@ -616,6 +617,7 @@
 		2D8C4ACA6AB527576CB2CBE8B844D188 /* FKFlickrFavoritesGetPublicList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrFavoritesGetPublicList.h; path = Classes/Model/Generated/Favorites/FKFlickrFavoritesGetPublicList.h; sourceTree = "<group>"; };
 		2DC5F5ABECFD09A33566DBF232DB9ED3 /* FKFlickrPhotosetsEditPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosetsEditPhotos.m; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsEditPhotos.m; sourceTree = "<group>"; };
 		2DE1C68F6842EA51C296C87E195684A1 /* FKFlickrStatsGetTotalViews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrStatsGetTotalViews.h; path = Classes/Model/Generated/Stats/FKFlickrStatsGetTotalViews.h; sourceTree = "<group>"; };
+		2EDC82E26C0F346EB4C7A4C4C5A0E864 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		2F94D47145C3974766C473FBC440E097 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		317FC3D881D8D8F978828BF826B96E65 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		319307F5CFA4A8AF22E2DC3B57E0CB8B /* FKFlickrPhotosetsGetInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosetsGetInfo.m; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsGetInfo.m; sourceTree = "<group>"; };
@@ -625,6 +627,7 @@
 		33181DF15BE022EB4117968BF5268F4F /* Pods-InterviewTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InterviewTest-resources.sh"; sourceTree = "<group>"; };
 		3320916CBE61363DCE4BB86F778FE731 /* FKFlickrPhotosRemoveTag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosRemoveTag.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosRemoveTag.m; sourceTree = "<group>"; };
 		33ED1D941353261F85C256895BCA6CB2 /* FKFlickrGroupsDiscussRepliesAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrGroupsDiscussRepliesAdd.h; path = Classes/Model/Generated/Groups/Discuss/Replies/FKFlickrGroupsDiscussRepliesAdd.h; sourceTree = "<group>"; };
+		343DFBED3469B92704E04E700E1DFF67 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		35181197433C4C52C47435A87AC1084B /* FKFlickrPhotosGetRecent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosGetRecent.h; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetRecent.h; sourceTree = "<group>"; };
 		35C016A6B8938172D3AB3DC3CFFB5BCD /* FKFlickrPlacesResolvePlaceURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPlacesResolvePlaceURL.m; path = Classes/Model/Generated/Places/FKFlickrPlacesResolvePlaceURL.m; sourceTree = "<group>"; };
 		36A4D5DD2AD35E2724AB04F71573C07B /* FKFlickrContactsGetPublicList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrContactsGetPublicList.h; path = Classes/Model/Generated/Contacts/FKFlickrContactsGetPublicList.h; sourceTree = "<group>"; };
@@ -696,7 +699,6 @@
 		55C9D4DEB67BD0755C8117F3B5C8BA8A /* Pods-InterviewTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InterviewTest-acknowledgements.plist"; sourceTree = "<group>"; };
 		5622A2A8A3181071C39EEC0ED98739EA /* FKFlickrStatsGetPhotoReferrers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrStatsGetPhotoReferrers.h; path = Classes/Model/Generated/Stats/FKFlickrStatsGetPhotoReferrers.h; sourceTree = "<group>"; };
 		576F3F120D0C7CFFBECFA948F4FB1B9D /* FKFlickrPhotosetsReorderPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosetsReorderPhotos.m; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsReorderPhotos.m; sourceTree = "<group>"; };
-		57F2B5E013FD1D42752E768761E043FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		58A2ABCD8E68F749CCB50BEB2082989B /* FKFlickrAuthOauthCheckToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrAuthOauthCheckToken.h; path = Classes/Model/Generated/Auth/Oauth/FKFlickrAuthOauthCheckToken.h; sourceTree = "<group>"; };
 		58CF8D76C4CF6C1AB32013096F20F3EF /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		591B1C0010399BA81D12A445C4815B0D /* FKFlickrGalleriesEditPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrGalleriesEditPhoto.m; path = Classes/Model/Generated/Galleries/FKFlickrGalleriesEditPhoto.m; sourceTree = "<group>"; };
@@ -770,11 +772,11 @@
 		7B5AD0BB49806B41DDE6B9A77C4FB73B /* FKFlickrMachinetagsGetPairs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrMachinetagsGetPairs.m; path = Classes/Model/Generated/Machinetags/FKFlickrMachinetagsGetPairs.m; sourceTree = "<group>"; };
 		7B964009EE4FFA57904B14728E203BBE /* FKFlickrGalleriesEditMeta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrGalleriesEditMeta.h; path = Classes/Model/Generated/Galleries/FKFlickrGalleriesEditMeta.h; sourceTree = "<group>"; };
 		7BB7BEA7164D4764A75E67AED4633EE0 /* FKOFHMACSha1Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKOFHMACSha1Base64.h; path = Classes/Utilities/FKOFHMACSha1Base64.h; sourceTree = "<group>"; };
-		7C168D5DBDB78691493E24B13EF6B6A8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		7C7AE81819521F8E97C6A8103599E181 /* FKFlickrAuthCheckToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrAuthCheckToken.h; path = Classes/Model/Generated/Auth/FKFlickrAuthCheckToken.h; sourceTree = "<group>"; };
 		7DD4B8AE52D1F5E641500A21058AC9AB /* FKFlickrCamerasGetBrandModels.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrCamerasGetBrandModels.m; path = Classes/Model/Generated/Cameras/FKFlickrCamerasGetBrandModels.m; sourceTree = "<group>"; };
 		7EDE282CA23B3C78162F8008E565D9C4 /* FKFlickrAuthGetFullToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrAuthGetFullToken.m; path = Classes/Model/Generated/Auth/FKFlickrAuthGetFullToken.m; sourceTree = "<group>"; };
 		7F38E634EEDC31F47BEFC1D051BA25EA /* FKFlickrStatsGetPhotostreamReferrers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrStatsGetPhotostreamReferrers.m; path = Classes/Model/Generated/Stats/FKFlickrStatsGetPhotostreamReferrers.m; sourceTree = "<group>"; };
+		80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		826DF8A5A6BB94A2606AF4415ECACC29 /* FKFlickrStatsGetPhotosetStats.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrStatsGetPhotosetStats.h; path = Classes/Model/Generated/Stats/FKFlickrStatsGetPhotosetStats.h; sourceTree = "<group>"; };
 		83B9E9C8B880FCF974CDEE20F0D518D3 /* FKFlickrGroupsDiscussRepliesDelete.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrGroupsDiscussRepliesDelete.m; path = Classes/Model/Generated/Groups/Discuss/Replies/FKFlickrGroupsDiscussRepliesDelete.m; sourceTree = "<group>"; };
 		84E4356CE6EDC70D99F4A4A4E2270DBF /* FKFlickrPhotosSetDates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosSetDates.h; path = Classes/Model/Generated/Photos/FKFlickrPhotosSetDates.h; sourceTree = "<group>"; };
@@ -800,6 +802,7 @@
 		8F7848CAB7DA2BB5A1150CC618FE8D6C /* FKFlickrPhotosCommentsAddComment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosCommentsAddComment.m; path = Classes/Model/Generated/Photos/Comments/FKFlickrPhotosCommentsAddComment.m; sourceTree = "<group>"; };
 		8FC1EB4E2C4DD99E45E9B8B64B8C6CF0 /* FKFlickrPhotosLicensesSetLicense.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosLicensesSetLicense.m; path = Classes/Model/Generated/Photos/Licenses/FKFlickrPhotosLicensesSetLicense.m; sourceTree = "<group>"; };
 		93A49CC1C92A616D2BD6134B734D6957 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9587C1CE1C8BAC6F0A62B733CE31045B /* FKFlickrPhotosGeoGetPerms.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosGeoGetPerms.m; path = Classes/Model/Generated/Photos/Geo/FKFlickrPhotosGeoGetPerms.m; sourceTree = "<group>"; };
 		962E34E18F5680BD6A32495869831768 /* FKUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKUtilities.h; path = Classes/Utilities/FKUtilities.h; sourceTree = "<group>"; };
 		965EF9C07E1D25DCCAC22D8A7E580367 /* FKFlickrFavoritesAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrFavoritesAdd.h; path = Classes/Model/Generated/Favorites/FKFlickrFavoritesAdd.h; sourceTree = "<group>"; };
@@ -815,7 +818,6 @@
 		9A49FCC052A7FEA48F3B77A6E36D5E4A /* FKFlickrAuthGetFrob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrAuthGetFrob.h; path = Classes/Model/Generated/Auth/FKFlickrAuthGetFrob.h; sourceTree = "<group>"; };
 		9B810EDA2A4DB5C1A81F2A21EE981BE6 /* FKFlickrPeopleGetInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPeopleGetInfo.m; path = Classes/Model/Generated/People/FKFlickrPeopleGetInfo.m; sourceTree = "<group>"; };
 		9BFF48F9754C65D85E40792B9A74C5DA /* FKFlickrUrlsGetUserPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrUrlsGetUserPhotos.h; path = Classes/Model/Generated/Urls/FKFlickrUrlsGetUserPhotos.h; sourceTree = "<group>"; };
-		9C31A9B26388001B26382C7C355DA572 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9C6975B73BC762318999A356513902D3 /* FKFlickrPhotosGetNotInSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosGetNotInSet.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetNotInSet.m; sourceTree = "<group>"; };
 		9C7186E43D4DF4880FB5B9C839C3E8F9 /* FKFlickrPandaGetPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPandaGetPhotos.h; path = Classes/Model/Generated/Panda/FKFlickrPandaGetPhotos.h; sourceTree = "<group>"; };
 		9CC46E4C17E73E7C217BF0C93C91024B /* FKFlickrPeopleGetLimits.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPeopleGetLimits.m; path = Classes/Model/Generated/People/FKFlickrPeopleGetLimits.m; sourceTree = "<group>"; };
@@ -825,7 +827,6 @@
 		A00DC18C341A9A86B8234B5F3605E3FF /* FKDUBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKDUBlocks.m; path = Classes/DevedUpKit/FKDUBlocks.m; sourceTree = "<group>"; };
 		A0EC0D08674E81102ED514F17D25051F /* FKFlickrPhotosGeoSetPerms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosGeoSetPerms.h; path = Classes/Model/Generated/Photos/Geo/FKFlickrPhotosGeoSetPerms.h; sourceTree = "<group>"; };
 		A159A44E5B30D61198B1AC8F97CEC371 /* FKFlickrUrlsGetUserProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrUrlsGetUserProfile.h; path = Classes/Model/Generated/Urls/FKFlickrUrlsGetUserProfile.h; sourceTree = "<group>"; };
-		A19DF616941A51576DD057A9FD8F4AD8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		A1B4D77B250033ED950DB1A651DFD334 /* FKFlickrPeopleGetPublicPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPeopleGetPublicPhotos.h; path = Classes/Model/Generated/People/FKFlickrPeopleGetPublicPhotos.h; sourceTree = "<group>"; };
 		A1EAA0FD06D38B2B8758D7D656F3282E /* FKFlickrPhotosetsRemovePhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosetsRemovePhoto.m; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsRemovePhoto.m; sourceTree = "<group>"; };
 		A2855DFF61418438240986BD8C0FCBBB /* FKFlickrPhotosGeoCorrectLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosGeoCorrectLocation.h; path = Classes/Model/Generated/Photos/Geo/FKFlickrPhotosGeoCorrectLocation.h; sourceTree = "<group>"; };
@@ -872,7 +873,6 @@
 		B8CD3B29FBE21AEBCE13236B8E51C2FD /* FKFlickrPhotosGetAllContexts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosGetAllContexts.h; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetAllContexts.h; sourceTree = "<group>"; };
 		B9CCF53738A3FB68A8182B60941DB98F /* FKFlickrPrefsGetSafetyLevel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPrefsGetSafetyLevel.m; path = Classes/Model/Generated/Prefs/FKFlickrPrefsGetSafetyLevel.m; sourceTree = "<group>"; };
 		B9EF29EF1FAB7695066C64D376C76942 /* FKFlickrPhotosUploadCheckTickets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosUploadCheckTickets.h; path = Classes/Model/Generated/Photos/Upload/FKFlickrPhotosUploadCheckTickets.h; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA69FF2786F76451E106CA4F5D71F81F /* FKFlickrPlacesPlacesForContacts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPlacesPlacesForContacts.m; path = Classes/Model/Generated/Places/FKFlickrPlacesPlacesForContacts.m; sourceTree = "<group>"; };
 		BAA11032E04A5D0E103C367527034086 /* FKFlickrGalleriesEditPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrGalleriesEditPhotos.h; path = Classes/Model/Generated/Galleries/FKFlickrGalleriesEditPhotos.h; sourceTree = "<group>"; };
 		BB8240FD0D3FDE65A503E7B6E58CFC47 /* FKOFHMACSha1Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKOFHMACSha1Base64.m; path = Classes/Utilities/FKOFHMACSha1Base64.m; sourceTree = "<group>"; };
@@ -889,7 +889,6 @@
 		BF8E141233979E918C486329E827DFDA /* FKFlickrPhotosetsGetContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosetsGetContext.h; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsGetContext.h; sourceTree = "<group>"; };
 		BFBA1C6E7C4566E3495FD8B379408064 /* FKFlickrPandaGetList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPandaGetList.h; path = Classes/Model/Generated/Panda/FKFlickrPandaGetList.h; sourceTree = "<group>"; };
 		C1D9EC3FC769DEE0EB34FF4263ABB247 /* FKFlickrGroupsDiscussRepliesAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrGroupsDiscussRepliesAdd.m; path = Classes/Model/Generated/Groups/Discuss/Replies/FKFlickrGroupsDiscussRepliesAdd.m; sourceTree = "<group>"; };
-		C2B240D99C3FC6A7DC6C66A2434CA799 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		C2F6A4C5F5C98B58257B5E6730190154 /* FKFlickrPhotosGeoPhotosForLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosGeoPhotosForLocation.m; path = Classes/Model/Generated/Photos/Geo/FKFlickrPhotosGeoPhotosForLocation.m; sourceTree = "<group>"; };
 		C3B4A0398B841A999F696F24E4B02C29 /* FKFlickrGalleriesGetPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrGalleriesGetPhotos.h; path = Classes/Model/Generated/Galleries/FKFlickrGalleriesGetPhotos.h; sourceTree = "<group>"; };
 		C3C0F097074EAD1EAF39319337AD9836 /* FKFlickrPeopleGetPhotosOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPeopleGetPhotosOf.h; path = Classes/Model/Generated/People/FKFlickrPeopleGetPhotosOf.h; sourceTree = "<group>"; };
@@ -982,6 +981,7 @@
 		F0FF3393F775B72332B6C1795C3DA0B0 /* FKFlickrGalleriesEditPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrGalleriesEditPhoto.h; path = Classes/Model/Generated/Galleries/FKFlickrGalleriesEditPhoto.h; sourceTree = "<group>"; };
 		F1881D4BF57809A8A6F0FA43EDEBCD8A /* FKFlickrPhotosetsOrderSets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosetsOrderSets.h; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsOrderSets.h; sourceTree = "<group>"; };
 		F255ED4951492988239D922AA7A92016 /* FKFlickrPlacesPlacesForTags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPlacesPlacesForTags.h; path = Classes/Model/Generated/Places/FKFlickrPlacesPlacesForTags.h; sourceTree = "<group>"; };
+		F28310C109F80A2823B80B134627E5D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		F2F5366F23CE0DABCC97CA29C3CF8B33 /* FKFlickrTagsGetMostFrequentlyUsed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrTagsGetMostFrequentlyUsed.h; path = Classes/Model/Generated/Tags/FKFlickrTagsGetMostFrequentlyUsed.h; sourceTree = "<group>"; };
 		F344AFADEFC027FF96293D3B4DFB1557 /* FKFlickrPrefsGetHidden.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPrefsGetHidden.h; path = Classes/Model/Generated/Prefs/FKFlickrPrefsGetHidden.h; sourceTree = "<group>"; };
 		F37D3FC69FA8D030A62CF66A70FFADB9 /* FKFlickrReflectionGetMethodInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrReflectionGetMethodInfo.m; path = Classes/Model/Generated/Reflection/FKFlickrReflectionGetMethodInfo.m; sourceTree = "<group>"; };
@@ -1027,8 +1027,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A984C2DD0390D719384EF2D59589C9E /* Foundation.framework in Frameworks */,
-				1D7724C8A2542155BC4C0C6C9BC5F262 /* SystemConfiguration.framework in Frameworks */,
+				9665231F53F663B9C41AD14171EE576C /* Foundation.framework in Frameworks */,
+				945E0100FB226AA551863C00CE9946C6 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1036,11 +1036,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2053D71CF543C3A3CC47C5409D61923C /* CoreGraphics.framework in Frameworks */,
-				6083F51989A0009C740D92767F4DC1FC /* Foundation.framework in Frameworks */,
-				00F09DB5E05D1208F27161E2F016FE36 /* MobileCoreServices.framework in Frameworks */,
-				022B549F10007177A43FAB1DD5114F7D /* Security.framework in Frameworks */,
-				CE8965366A3B07A6C0615055A31B8B83 /* SystemConfiguration.framework in Frameworks */,
+				045FFEDD819A734271DD5DE53C877884 /* CoreGraphics.framework in Frameworks */,
+				30DA0B928C8F28E3C3F279C3833458A0 /* Foundation.framework in Frameworks */,
+				17912D9A89FC36E82029409E9B74A61A /* MobileCoreServices.framework in Frameworks */,
+				0358B918CA8C9D3C214FD4D41CD69A90 /* Security.framework in Frameworks */,
+				650FFDAF60A6C37D824BC6364B09A3E5 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1048,7 +1048,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07586D10B9674F8E581A4063CA2142D5 /* Foundation.framework in Frameworks */,
+				9CF757F63F35F2EFEC380E1C6424733D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1521,9 +1521,21 @@
 		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FFD977C5D23FB16656C5D57197BAA49C /* iOS */,
+				3193CAF693F496CF6BBAA7E0BCD76004 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3193CAF693F496CF6BBAA7E0BCD76004 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F28310C109F80A2823B80B134627E5D8 /* CoreGraphics.framework */,
+				80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */,
+				1B0A15003DCEEBA4FDF7ABE901F172CE /* MobileCoreServices.framework */,
+				2EDC82E26C0F346EB4C7A4C4C5A0E864 /* Security.framework */,
+				343DFBED3469B92704E04E700E1DFF67 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		622691C6C5962E5F78E945FADC3E2F5F /* Products */ = {
@@ -1600,7 +1612,7 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
 				9ACA1C6B97746370055A03B55579C9C5 /* Pods */,
 				622691C6C5962E5F78E945FADC3E2F5F /* Products */,
@@ -1672,18 +1684,6 @@
 				93A49CC1C92A616D2BD6134B734D6957 /* AFURLSessionManager.m */,
 			);
 			name = NSURLSession;
-			sourceTree = "<group>";
-		};
-		FFD977C5D23FB16656C5D57197BAA49C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				57F2B5E013FD1D42752E768761E043FC /* CoreGraphics.framework */,
-				9C31A9B26388001B26382C7C355DA572 /* Foundation.framework */,
-				C2B240D99C3FC6A7DC6C66A2434CA799 /* MobileCoreServices.framework */,
-				A19DF616941A51576DD057A9FD8F4AD8 /* Security.framework */,
-				7C168D5DBDB78691493E24B13EF6B6A8 /* SystemConfiguration.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2007,7 +2007,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -2309,49 +2309,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1EB147130D0239E4A76652AEFFBB5CCF /* Debug */ = {
+		0B48DC7DAC7407300976FE9B3151F354 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D4FC1720B5153ADE34E96844AEBAD17 /* FlickrKit.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/FlickrKit/FlickrKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		2EAC43789FE8637F8AB1F35041C57F49 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52E5646541AD58D659EE50639CA72F0F /* AFNetworking.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		34EAFDC792810E4C96A409772C73D258 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52E5646541AD58D659EE50639CA72F0F /* AFNetworking.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -2363,44 +2330,74 @@
 			};
 			name = Release;
 		};
-		597F353F57107F16086DC3CBE59695F8 /* Debug */ = {
+		3B4B3DA66BEBECBF5A605924884404AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A640B3B1BF8E4365600088C47003818F /* Pods-InterviewTest.debug.xcconfig */;
+			baseConfigurationReference = 1D4FC1720B5153ADE34E96844AEBAD17 /* FlickrKit.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MACH_O_TYPE = staticlib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FlickrKit/FlickrKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		88DE772D6C77AB091671793209CF1E78 /* Release */ = {
+		3C51C0C1DF1AF101E0EF749B8E660489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E5646541AD58D659EE50639CA72F0F /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		663FA785FABCB1659C49A412699D5BAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F0FFFF0836BEABF2519A60A4EE9D400 /* Pods-InterviewTest.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+		84FD87D359382A37B07149A12641B965 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -2415,10 +2412,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -2436,14 +2435,17 @@
 			};
 			name = Debug;
 		};
-		ADCD0BD380E273DFAA09D6E164212A95 /* Release */ = {
+		D9C97EB576CE94D4E00FD675005D2868 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D4FC1720B5153ADE34E96844AEBAD17 /* FlickrKit.xcconfig */;
+			baseConfigurationReference = 52E5646541AD58D659EE50639CA72F0F /* AFNetworking.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FlickrKit/FlickrKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -2452,12 +2454,34 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+		DB12DF209D1369D5E6C158CB46582833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A640B3B1BF8E4365600088C47003818F /* Pods-InterviewTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F594C655D48020EC34B00AA63E001773 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -2474,7 +2498,10 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -2494,8 +2521,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D1534490D941DCA47C62AC4314182AF /* Debug */,
-				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+				84FD87D359382A37B07149A12641B965 /* Debug */,
+				F594C655D48020EC34B00AA63E001773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2503,8 +2530,8 @@
 		77CF2A7107BC61A2E90025871305961D /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2EAC43789FE8637F8AB1F35041C57F49 /* Debug */,
-				34EAFDC792810E4C96A409772C73D258 /* Release */,
+				D9C97EB576CE94D4E00FD675005D2868 /* Debug */,
+				3C51C0C1DF1AF101E0EF749B8E660489 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2512,8 +2539,8 @@
 		A6D1726C727ED94453DBA4EAB17FC0B5 /* Build configuration list for PBXNativeTarget "FlickrKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EB147130D0239E4A76652AEFFBB5CCF /* Debug */,
-				ADCD0BD380E273DFAA09D6E164212A95 /* Release */,
+				3B4B3DA66BEBECBF5A605924884404AF /* Debug */,
+				0B48DC7DAC7407300976FE9B3151F354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2521,8 +2548,8 @@
 		A8F07FA7819B90A9E3B6F833565CAB72 /* Build configuration list for PBXNativeTarget "Pods-InterviewTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				597F353F57107F16086DC3CBE59695F8 /* Debug */,
-				88DE772D6C77AB091671793209CF1E78 /* Release */,
+				DB12DF209D1369D5E6C158CB46582833 /* Debug */,
+				663FA785FABCB1659C49A412699D5BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
