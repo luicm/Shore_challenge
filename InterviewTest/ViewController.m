@@ -49,9 +49,13 @@
             for (NSDictionary *photoData in [response valueForKeyPath:@"photos.photo"]) {
                 [photos addObject:photoData];
             }
-            self.allPhotos = photos;
             
-            [self.collectionView reloadData];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.allPhotos = photos;
+                [self.collectionView reloadData];
+
+            });
+            
         }
     }];
 }
