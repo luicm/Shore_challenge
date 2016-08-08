@@ -14,4 +14,8 @@
     // Initialization code
 }
 
+- (void)prepareForReuse {
+    self.imageView.image = nil;
+}
+
 @end
