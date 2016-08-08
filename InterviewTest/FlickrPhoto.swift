@@ -21,11 +21,4 @@ class FlickrPhoto: NSObject {
        detailURL = flickr.photoURLForSize(FKPhotoSizeLarge1024, fromPhotoDictionary: photoData)
        title = photoData["title"] as! String
     }
-    
-//    init(thumbnailURL: NSURL, detailURL: NSURL, title: String) {
-//        self.thubmnailURL = thumbnailURL
-//        self.detailURL = detailURL
-//        self.title = title
-//    }
-
 }

@@ -132,20 +132,17 @@
 				87E382FB1C6C9FCC001BC503 /* AppDelegate.h */,
 				87E382FC1C6C9FCC001BC503 /* AppDelegate.m */,
 				87E383041C6C9FCC001BC503 /* Assets.xcassets */,
-				A044868D1D58A39D0058D494 /* DetailViewController.swift */,
-				87E3830F1C6CA37B001BC503 /* FlickrCell.h */,
-				87E383101C6CA37B001BC503 /* FlickrCell.m */,
+				A04486BB1D58FB0D0058D494 /* ViewControllers */,
+				A04486BC1D58FB190058D494 /* Views */,
 				87E383111C6CA37B001BC503 /* FlickrCell.xib */,
-				A04486891D5880A00058D494 /* FlickrPhoto.swift */,
-				A044868F1D58A48A0058D494 /* FlickrPhotosCoordinator.swift */,
-				A04486911D58A49A0058D494 /* FlickrPhotosPresenter.swift */,
+				A04486BD1D58FB210058D494 /* Models */,
+				A04486BF1D58FB360058D494 /* Coordinators */,
+				A04486BE1D58FB2F0058D494 /* Presenters */,
 				87E383091C6C9FCC001BC503 /* Info.plist */,
 				A04486881D58809F0058D494 /* InterviewTest-Bridging-Header.h */,
 				87E383061C6C9FCC001BC503 /* LaunchScreen.storyboard */,
 				87E383011C6C9FCC001BC503 /* Main.storyboard */,
 				87E382F81C6C9FCC001BC503 /* Supporting Files */,
-				87E382FE1C6C9FCC001BC503 /* ViewController.h */,
-				87E382FF1C6C9FCC001BC503 /* ViewController.m */,
 			);
 			path = InterviewTest;
 			sourceTree = "<group>";
@@ -166,6 +163,49 @@
 				A04486AE1D58DF7A0058D494 /* Info.plist */,
 			);
 			path = InterviewTestTests;
+			sourceTree = "<group>";
+		};
+		A04486BB1D58FB0D0058D494 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A044868D1D58A39D0058D494 /* DetailViewController.swift */,
+				87E382FE1C6C9FCC001BC503 /* ViewController.h */,
+				87E382FF1C6C9FCC001BC503 /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A04486BC1D58FB190058D494 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				87E3830F1C6CA37B001BC503 /* FlickrCell.h */,
+				87E383101C6CA37B001BC503 /* FlickrCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A04486BD1D58FB210058D494 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A04486891D5880A00058D494 /* FlickrPhoto.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A04486BE1D58FB2F0058D494 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				A04486911D58A49A0058D494 /* FlickrPhotosPresenter.swift */,
+			);
+			name = Presenters;
+			sourceTree = "<group>";
+		};
+		A04486BF1D58FB360058D494 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				A044868F1D58A48A0058D494 /* FlickrPhotosCoordinator.swift */,
+			);
+			name = Coordinators;
 			sourceTree = "<group>";
 		};
 		AA9C1741DF1E91933A9276F4 /* Pods */ = {

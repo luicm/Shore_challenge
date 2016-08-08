@@ -47,12 +47,12 @@
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    
     FlickrPhoto *photo  = [self.presenter photoForIndex:indexPath.row];
-
-    FlickrCell *cell     = [collectionView dequeueReusableCellWithReuseIdentifier:@"FlickrCell" forIndexPath:indexPath];
     
+    FlickrCell *cell     = [collectionView dequeueReusableCellWithReuseIdentifier:@"FlickrCell" forIndexPath:indexPath];
     [cell.imageView setImageWithURL:photo.thubmnailURL];
+    cell.imageView.layer.cornerRadius = 7;
+    cell.imageView.layer.masksToBounds = true;
     
     return cell;
 }
