@@ -4,3 +4,4 @@
 
 #import "AFNetworking.h"
 #import "FlickrKit/FlickrKit.h"
+#import "UIImageView+AFNetworking.h"

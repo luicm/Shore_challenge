@@ -13,10 +13,14 @@
 
 #import "InterviewTest-Swift.h"
 
-@interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
 
-@property (nonatomic, strong) NSArray *allPhotos;
+
+@interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout,PhotosListPresentable>
+
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+@property (nonatomic, strong) FlickrPhotosPresenter *presenter;
+@property (nonatomic, strong) FlickrPhoto *selectedPhoto;
+
 
 @end
 
@@ -24,64 +28,51 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setup];
-    [self loadImages];
+
+    [self.collectionView registerNib:[UINib nibWithNibName:@"FlickrCell" bundle:nil] forCellWithReuseIdentifier:@"FlickrCell"];
+
+    self.presenter = [[FlickrPhotosPresenter alloc] initWithDelegate:self];
+    [self.presenter loadImages];
+    
+    self.title = @"Nice List";
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return self.presenter.photos.count;
 }
 
--(void)setup {
-    [[FlickrKit sharedFlickrKit] initializeWithAPIKey:@"e1a0bda2a79fce8effb1dd1123f733a0" sharedSecret:@"72ffc260024dafc8"];
-    [self.collectionView registerNib:[UINib nibWithNibName:@"FlickrCell" bundle:nil]
-          forCellWithReuseIdentifier:@"FlickrCell"];
-}
-
--(void)loadImages {
-    FlickrKit *fk = [FlickrKit sharedFlickrKit];
-    FKFlickrInterestingnessGetList *interesting = [[FKFlickrInterestingnessGetList alloc] init];
-    [fk call:interesting completion:^(NSDictionary *response, NSError *error) {
-        
-        // Note this is not the main thread!
-        if (response) {
-            NSMutableArray *photos = [NSMutableArray array];
-            for (NSDictionary *photoData in [response valueForKeyPath:@"photos.photo"]) {
-                
-                FlickrPhoto *newPhoto = [[FlickrPhoto alloc]initWithPhotoData: photoData];
-                [photos addObject:newPhoto];
-            }
-            
-            dispatch_async(dispatch_get_main_queue(), ^{
-                self.allPhotos = photos;
-                [self.collectionView reloadData];
-            });
-            
-        }
-    }];
-}
-
--(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return self.allPhotos.count;
-}
-
--(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return 1;
 }
 
--(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    FlickrPhoto *photo  = self.allPhotos[indexPath.row];
+    FlickrPhoto *photo  = [self.presenter photoForIndex:indexPath.row];
 
     FlickrCell *cell     = [collectionView dequeueReusableCellWithReuseIdentifier:@"FlickrCell" forIndexPath:indexPath];
+    
     [cell.imageView setImageWithURL:photo.thubmnailURL];
     
     return cell;
 }
 
--(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    self.selectedPhoto = [self.presenter photoForIndex:indexPath.row];
+    
+    [self performSegueWithIdentifier:@"ShowDetailSegue" sender:self];
+}
+
+- (void)photosListDidUpdate:(NSArray<FlickrPhoto *> *)photos {
+    [self.collectionView reloadData];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"ShowDetailSegue"]) {
+        
+        DetailViewController *detail = (DetailViewController *)segue.destinationViewController;
+        detail.photo = self.selectedPhoto;
+    }
 }
 
 @end
