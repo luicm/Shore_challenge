@@ -11,6 +11,8 @@
 #import "FlickrCell.h"
 #import "UIImageView+AFNetworking.h"
 
+#import "InterviewTest-Swift.h"
+
 @interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
 
 @property (nonatomic, strong) NSArray *allPhotos;
@@ -35,7 +37,6 @@
     [[FlickrKit sharedFlickrKit] initializeWithAPIKey:@"e1a0bda2a79fce8effb1dd1123f733a0" sharedSecret:@"72ffc260024dafc8"];
     [self.collectionView registerNib:[UINib nibWithNibName:@"FlickrCell" bundle:nil]
           forCellWithReuseIdentifier:@"FlickrCell"];
-
 }
 
 -(void)loadImages {
@@ -47,13 +48,14 @@
         if (response) {
             NSMutableArray *photos = [NSMutableArray array];
             for (NSDictionary *photoData in [response valueForKeyPath:@"photos.photo"]) {
-                [photos addObject:photoData];
+                
+                FlickrPhoto *newPhoto = [[FlickrPhoto alloc]initWithPhotoData: photoData];
+                [photos addObject:newPhoto];
             }
             
             dispatch_async(dispatch_get_main_queue(), ^{
                 self.allPhotos = photos;
                 [self.collectionView reloadData];
-
             });
             
         }
@@ -70,13 +72,10 @@
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    FlickrKit *fk = [FlickrKit sharedFlickrKit];
-
-    NSDictionary *photo  = self.allPhotos[indexPath.row];
-    NSURL *photoURL      = [fk photoURLForSize:FKPhotoSizeSmall240 fromPhotoDictionary:photo];
+    FlickrPhoto *photo  = self.allPhotos[indexPath.row];
 
     FlickrCell *cell     = [collectionView dequeueReusableCellWithReuseIdentifier:@"FlickrCell" forIndexPath:indexPath];
-    [cell.imageView setImageWithURL:photoURL];
+    [cell.imageView setImageWithURL:photo.thubmnailURL];
     
     return cell;
 }

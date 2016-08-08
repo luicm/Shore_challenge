@@ -16,6 +16,7 @@
 		87E383081C6C9FCC001BC503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E383061C6C9FCC001BC503 /* LaunchScreen.storyboard */; };
 		87E383121C6CA37B001BC503 /* FlickrCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E383101C6CA37B001BC503 /* FlickrCell.m */; };
 		87E383131C6CA37B001BC503 /* FlickrCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E383111C6CA37B001BC503 /* FlickrCell.xib */; };
+		A044868A1D5880A00058D494 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04486891D5880A00058D494 /* FlickrPhoto.swift */; };
 		A8A25769CF14D5E4E41694DC /* libPods-InterviewTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3393F3C5CDF765FFF9EA1AD5 /* libPods-InterviewTest.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,8 @@
 		87E3830F1C6CA37B001BC503 /* FlickrCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrCell.h; sourceTree = "<group>"; };
 		87E383101C6CA37B001BC503 /* FlickrCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrCell.m; sourceTree = "<group>"; };
 		87E383111C6CA37B001BC503 /* FlickrCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlickrCell.xib; sourceTree = "<group>"; };
+		A04486881D58809F0058D494 /* InterviewTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InterviewTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		A04486891D5880A00058D494 /* FlickrPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhoto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,7 @@
 				87E382FC1C6C9FCC001BC503 /* AppDelegate.m */,
 				87E382FE1C6C9FCC001BC503 /* ViewController.h */,
 				87E382FF1C6C9FCC001BC503 /* ViewController.m */,
+				A04486891D5880A00058D494 /* FlickrPhoto.swift */,
 				87E3830F1C6CA37B001BC503 /* FlickrCell.h */,
 				87E383101C6CA37B001BC503 /* FlickrCell.m */,
 				87E383111C6CA37B001BC503 /* FlickrCell.xib */,
@@ -124,6 +128,7 @@
 				87E383061C6C9FCC001BC503 /* LaunchScreen.storyboard */,
 				87E383091C6C9FCC001BC503 /* Info.plist */,
 				87E382F81C6C9FCC001BC503 /* Supporting Files */,
+				A04486881D58809F0058D494 /* InterviewTest-Bridging-Header.h */,
 			);
 			path = InterviewTest;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 		87E382ED1C6C9FCC001BC503 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Shore GmbH";
 				TargetAttributes = {
@@ -308,6 +314,7 @@
 				87E383001C6C9FCC001BC503 /* ViewController.m in Sources */,
 				87E382FD1C6C9FCC001BC503 /* AppDelegate.m in Sources */,
 				87E383121C6CA37B001BC503 /* FlickrCell.m in Sources */,
+				A044868A1D5880A00058D494 /* FlickrPhoto.swift in Sources */,
 				87E382FA1C6C9FCC001BC503 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,10 +464,13 @@
 			baseConfigurationReference = 0DCED841D958C76A1E5B8FB7 /* Pods-InterviewTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = InterviewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.termine24.dienstleister.InterviewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InterviewTest/InterviewTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -469,10 +479,12 @@
 			baseConfigurationReference = 3442997EA44AAB969D29C019 /* Pods-InterviewTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = InterviewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.termine24.dienstleister.InterviewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InterviewTest/InterviewTest-Bridging-Header.h";
 			};
 			name = Release;
 		};
