@@ -8,9 +8,8 @@
 
 import Foundation
 
-
-
 class FlickrPhoto: NSObject {
+    
     let thubmnailURL: NSURL
     let detailURL: NSURL
     let title: String
